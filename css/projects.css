@@ -1,0 +1,124 @@
+.header__projects{
+    height: 50vh;
+}
+
+
+.header-center__projects{
+    margin-bottom: 100px;
+}
+
+
+.header-center-text-bottom__project{
+    font-size: 100px;
+}
+
+
+.project-main{
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+
+
+.project__center{
+    display: flex;
+    width: 100%;
+}
+
+
+.project__center--block{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+
+}
+
+
+.project__center--block__left{
+    padding: 90px 300px 0px 90px;
+    background-image: url(https://websitedemos.net/game-dev-studio-04/wp-content/uploads/sites/1153/2022/12/bg_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.project__center--block__top-text{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.project__center--block__bottom-text{
+    font-size: 15px;
+    color: #747474;
+    margin-top: 15px;
+}
+
+.project__center--block__inner{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.project__center--block__inner--one{
+    grid-template-columns: 1/2;
+}
+
+.project__center--block__inner--one__text{
+    color: #fd307a;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    letter-spacing: 5px;
+}
+
+
+.project__center--block__inner--too{
+    grid-template-columns: 2/3;
+}
+
+.project__center--block__inner--too__text{
+    color: #747474;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+
+.project__center--block__img-one{
+    width: 100%;
+    height: 100%;
+}
+
+.project__center--block__img-too{
+    position: absolute;
+    left: -100px;
+    top: 10%;
+    width: 100%;
+}
+
+
+.project__center--block__img-free{
+    position: absolute;
+    right: -100px;
+    top: 10%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.project__center--block__right{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(https://websitedemos.net/game-dev-studio-04/wp-content/uploads/sites/1153/2022/12/bg_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
