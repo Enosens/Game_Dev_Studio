@@ -22,7 +22,7 @@ body{
 
 .btn-anim{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     position: absolute;
     left: 0;
     top: 0;

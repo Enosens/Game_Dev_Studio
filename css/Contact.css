@@ -1,0 +1,148 @@
+.bg-contact{
+    background-image: url(../images/Contact/bg_02.jpg);
+    color: #fff;
+    height: 60vh;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+}
+
+.contact-block{
+    width: 100%;
+    display: flex;
+}
+
+
+.contact-block__inner{
+    width: 50%;
+}
+.contact-block__inner-element{
+    padding: 150px 0px;
+}
+
+.contact-block__inner p{
+    margin-right: 175px;
+}
+
+.contact-block__inner-text-title{
+    font-weight: 700;
+}
+
+
+.contact-block__inner-text{
+    margin-top: 20px;
+    color: #747474;
+    margin-bottom: 20px;
+}
+
+.contact-block__inner-text-input{
+    font-size: 14px;
+    padding: 10px 0px 10px 20px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #747474;
+}
+
+
+.contact-btn{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.contact-btn a{
+    color: #fff;
+}
+
+.contact-block__inner-text-input:hover{
+    color: #fd307a;
+    transition: .3s;
+}
+
+.contact-btn a:hover{
+    color: #fd307a;
+    transition: .3s;  
+}
+
+
+.contact-block__inner_form{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    background-color: #181818;
+    padding: 10px 50px 10px 50px;
+}
+
+
+.form-span{
+    color: #ff0000;
+}
+
+.contact-block__inner_form-title{
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    opacity: .6;
+}
+
+
+.contact-block__inner-text-title__too{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.contact-block__inner-text-title__too-input{
+    width: 48%;
+    height: 50px;
+    font-family: inherit;
+    outline: none;
+    padding: 10px;
+}
+
+
+.contact-block__inner-text-title-input-one{
+    width: 100%;
+    height: 50px;
+    font-family: inherit;
+    outline: none;
+    padding: 10px;
+}
+
+.contact-block__inner_form-title-textarea{
+    min-width: 100%;
+    max-width: 100%;
+    height: 100px;
+    min-height: 100px;
+    max-height: 150px;
+    font-family: inherit;
+    outline: none;
+    padding: 10px;
+}
+
+.contact-block-inner{
+    position: relative;
+}
+
+.contact-block-inner__btn{
+    display: flex;
+    width: fit-content;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    margin-top: 15px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.contact-block-inner:hover .btn-anim{
+    clip-path: polygon(0% 0%, 120% 0% , 100% 100%, -20% 100%);
+}
