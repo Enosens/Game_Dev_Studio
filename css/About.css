@@ -90,6 +90,7 @@
 
 .about-center-bg{
     background-color: #00000056;
+    position: relative;
 }
 
 .about-center__block{

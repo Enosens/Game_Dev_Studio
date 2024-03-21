@@ -44,12 +44,27 @@ body{
     z-index: -5;
     opacity: .5;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+}
+
+.img-bg-2{
+    background-image: url(../images/Home/bg_02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -5;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
 }
 
 
 
-.img-bg-2{
+.img-bg-3{
     background-image: url(../images/Home/bg_03.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -61,13 +76,61 @@ body{
     z-index: -5;
     opacity: .5;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
+
+
+.img-bg-4{
+    background-image: url(../images/About/bg_04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -5;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.img-bg-5{
+    background-image: url(../images/About/bg_05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -5;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.img-bg-6{
+    background-image: url(../images/About/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -5;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* header 
 ................................................*/
 .header{
     height: 100vh;
+    position: relative;
 }
 
 
@@ -949,5 +1012,31 @@ footer a:hover{
         height: 250vh;
     }
 }
+
+
+
+.show{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #293445;
+    width: 100%;
+    height: fit-content;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    transition: .3s all;
+}
+
+.show a{
+    font-size: 20px;
+    padding: 20px 10px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+
 
 

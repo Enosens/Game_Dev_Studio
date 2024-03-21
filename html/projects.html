@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/About.css">
     <link rel="stylesheet" href="../css/Contac.css">
     <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script src="../js/index.js"></script>
     <title>Game Dev Studio</title>
 </head>
 
@@ -19,28 +21,19 @@
 
 <body>
     <header class="header__projects">   
-        <div class="img-bg">
-            <img class="img1" src="../images/Projects/bg_04.jpg" alt="">
-        </div>
         <div class="header-inner">
+            <div class="img-bg-4"></div>
             <div class=" header-block conteiner"> 
                 <div class="header-top-block">  
                     <img src="../images/Projects/logo-regular.png" alt="">
-                    <div class="header-info">
-                        <a class="header-info__text" href="../index.html">Home</a>
+                    <div class="header-info" id="burger-distlay">
+                        <a class="header-info__text" href="index.html">Home</a>
                         <a class="header-info__text active" href="projects.html">Projects</a>
                         <a class="header-info__text" href="About.html">About</a>
                         <a class="header-info__text" href="Contact.html">Contact</a>
                     </div>
-                    <div class="header-info-burger">
-                        <div class="header-info-burger-block">
-                            <!-- <div class="header-info-burger-block-btn">
-                                <a class="header-info__text active" href="index.html">Home</a>
-                                <a class="header-info__text" href="html/projects.html">Projects</a>
-                                <a class="header-info__text" href="html/About.html">About</a>
-                                <a class="header-info__text" href="html/Contact.html">Contact</a>
-                            </div> -->
-                        </div>
+                    <div class="header-info-burger" id="navToggle">
+                        <div class="header-info-burger-block"></div>
                     </div>
                 </div>
                 <div class="header-center header-center__projects">
@@ -139,9 +132,7 @@
     </main>
 
     <div class="projectinfo">
-        <!-- <div class="img-bg">
-            <img class="img2" src="https://websitedemos.net/game-dev-studio-04/wp-content/uploads/sites/1153/2022/12/bg_03.jpg" alt="">
-        </div> -->
+        <div class="img-bg-3"></div>
         <div class="projectinfo__text conteiner">
             <div class="projectinfo__text__element">
             </div>
@@ -155,7 +146,6 @@
                     <a class="projectinfo-btn__block " href="">get in touch</a>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -168,7 +158,7 @@
 
         <div class="footer-too">
             <p>Links</p>
-            <a href="../index.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="projects.html">Projects</a>
             <a href="About.html">About</a>
             <a href="Contact.html">Contact</a>

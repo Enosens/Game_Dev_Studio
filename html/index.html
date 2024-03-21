@@ -3,40 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/About.css">
-    <link rel="stylesheet" href="css/Contac.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/About.css">
+    <link rel="stylesheet" href="../css/Contac.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <script src="../jquery/jquery-3.7.1.min.js"></script>
+    <script src="../js/index.js"></script>
     <title>Game Dev Studio</title>
 </head>
 <body>
 
     <header class="header">   
         <div class="header-inner">
-            <div class="img-bg">
-            </div>
+            <div class="img-bg"></div>
             <div class=" header-block conteiner"> 
                 <div class="header-top-block">  
-                    <img src="images/Home/logo-regular.png" alt="">
-                    <div class="header-info">
+                    <img src="../images/Home/logo-regular.png" alt="">
+                    <div class="header-info" id="burger-distlay">
                         <a class="header-info__text active" href="index.html">Home</a>
-                        <a class="header-info__text" href="html/projects.html">Projects</a>
-                        <a class="header-info__text" href="html/About.html">About</a>
-                        <a class="header-info__text" href="html/Contact.html">Contact</a>
+                        <a class="header-info__text" href="projects.html">Projects</a>
+                        <a class="header-info__text" href="About.html">About</a>
+                        <a class="header-info__text" href="Contact.html">Contact</a>
                     </div>
-                    <div class="header-info-burger">
-                        <div class="header-info-burger-block">
-                            <!-- <div class="header-info-burger-block-btn">
-                                <a class="header-info__text active" href="index.html">Home</a>
-                                <a class="header-info__text" href="html/projects.html">Projects</a>
-                                <a class="header-info__text" href="html/About.html">About</a>
-                                <a class="header-info__text" href="html/Contact.html">Contact</a>
-                            </div> -->
-                        </div>
+                    <div class="header-info-burger" id="navToggle">
+                        <div class="header-info-burger-block" ></div>
                     </div>
                 </div>
                 <div class="header-center">
@@ -87,7 +81,7 @@
                     </div>
                 </div>
                 <div class="about-block">
-                    <img class="about-block-img" src="images/Home/about-01.jpg" alt="">
+                    <img class="about-block-img" src="../images/Home/about-01.jpg" alt="">
                 </div>
             </section>
             <section class="conteiner">
@@ -141,7 +135,7 @@
                 </div>
                 <div class="project-images">
                     <div class="project-images__block">
-                        <img class="project-images__block-img" src="images/Home/game-01.jpg" alt="">
+                        <img class="project-images__block-img" src="../images/Home/game-01.jpg" alt="">
                         <div class="project-images__block-text">
                             <div class="project-images__block-text__inner">
                                 <p class="project-images__block-text__inner-one">ELECTRONIC GAMES</p>
@@ -151,7 +145,7 @@
                         </div>
                     </div>
                     <div class="project-images__block">
-                        <img class="project-images__block-img" src="images/Home/game-02.jpg" alt="">
+                        <img class="project-images__block-img" src="../images/Home/game-02.jpg" alt="">
                         <div class="project-images__block-text">
                             <div class="project-images__block-text__inner">
                                 <p class="project-images__block-text__inner-one">GAMING COMPANY</p>
@@ -161,7 +155,7 @@
                         </div>
                     </div>
                     <div class="project-images__block">
-                        <img class="project-images__block-img" src="images/Home/game-03.jpg" alt="">
+                        <img class="project-images__block-img" src="../images/Home/game-03.jpg" alt="">
                         <div class="project-images__block-text">
                             <div class="project-images__block-text__inner">
                                 <p class="project-images__block-text__inner-one">GAMES X</p>
@@ -171,7 +165,7 @@
                         </div>
                     </div>
                     <div class="project-images__block">
-                        <img class="project-images__block-img" src="images/Home/game-04.jpg" alt="">
+                        <img class="project-images__block-img" src="../images/Home/game-04.jpg" alt="">
                         <div class="project-images__block-text">
                             <div class="project-images__block-text__inner">
                                 <p class="project-images__block-text__inner-one">ESUPER GAMES</p>
@@ -207,35 +201,36 @@
                     <p class="info-text-fo">Trusted by great companies</p>
                     <div class="info-logo">
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-01.png" alt="">
+                            <img src="../images/Home/logo-01.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-02.png" alt="">
+                            <img src="../images/Home/logo-02.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-03.png" alt="">
+                            <img src="../images/Home/logo-03.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-04.png" alt="">
+                            <img src="../images/Home/logo-04.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-05.png" alt="">
+                            <img src="../images/Home/logo-05.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-06.png" alt="">
+                            <img src="../images/Home/logo-06.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-07.png" alt="">
+                            <img src="../images/Home/logo-07.png" alt="">
                         </div>
                         <div class="info-logo__block">
-                            <img src="images/Home/logo-08.png" alt="">
+                            <img src="../images/Home/logo-08.png" alt="">
                         </div>
                     </div>
                 </div>
             </section>
         </div>
+
         <div class="projectinfo">
-            <div class="img-bg-2"></div>
+            <div class="img-bg-3"></div>
             <div class="projectinfo__text conteiner">
                 <div class="projectinfo__text__element">
                 </div>
@@ -254,16 +249,16 @@
     </main>
     <footer class="footer">
         <div class="footer-one">
-            <img src="images/Home/logo-regular.png" alt="">
+            <img src="../images/Home/logo-regular.png" alt="">
             <p>Copyright © 2024 Game Dev Studio</p>
             <p>Powered by Game Dev Studio</p>
         </div>
         <div class="footer-too">
             <p>Links</p>
             <a href="index.html">Home</a>
-            <a href="html/projects.html">Projects</a>
-            <a href="html/About.html">About</a>
-            <a href="html/Contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
         </div>
         <div class="footer-free">
             <p>Address</p>
